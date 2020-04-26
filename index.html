@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SELETOR DE CORES</title>
   <link rel="stylesheet" href="css/style.css">
+  <title>SELETOR DE CORES</title>
 </head>
 
 <body>
@@ -16,12 +15,12 @@
   <main>
     <article>
       <label>VERMELHO</label>
-      <input onchange="mos()" id="red" min="0" max="255" type="range">
+      <input onchange="mostrarCor()" id="red" min="0" max="255" type="range">
       <label>VERDE</label>
-      <input onchange="mos()" id="green" min="0" max="255" type="range">
+      <input onchange="mostrarCor()" id="green" min="0" max="255" type="range">
       <label>AZUL</label>
-      <input onchange="mos()" id="blue" min="0" max="255" type="range">
-      <div id="res">
+      <input onchange="mostrarCor()" id="blue" min="0" max="255" type="range">
+      <div id="resultado">
         <h2>RGB()</h2>
       </div>
     </article>
