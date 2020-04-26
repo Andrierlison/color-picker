@@ -5,31 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HTML</title>
-  <!-- HTML -->
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
+  <title>SELETOR DE CORES</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <p id="res">Nothing to see here...</p>
-  <input onchange="mos()" id="red" min="0" max="255" type="range">
-  <input onchange="mos()" id="green" min="0" max="255" type="range">
-  <input onchange="mos()" id="blue" min="0" max="255" type="range">
-  <!-- Project -->
-  <script>
-    function mos() {
-      var red = document.getElementById("red").value
-      var green = document.getElementById("green").value
-      var blue = document.getElementById("blue").value
-
-
-      document.getElementById("res").innerHTML = "rgb(" + red + ", " + green + ", " + blue + ")"
-      document.getElementById("res").style.backgroundColor = "rgb(" + red + ", " + green + ", " + blue + ")"
-
-    }
-  </script>
-  <script src="main.js"></script>
-</body>
-
+  <header>
+    <h1>SELETOR DE CORES</h1>
+  </header>
+  <main>
+    <article>
+      <label>VERMELHO</label>
+      <input onchange="mos()" id="red" min="0" max="255" type="range">
+      <label>VERDE</label>
+      <input onchange="mos()" id="green" min="0" max="255" type="range">
+      <label>AZUL</label>
+      <input onchange="mos()" id="blue" min="0" max="255" type="range">
+      <div id="res">
+        <h2>RGB()</h2>
+      </div>
+    </article>
+  </main>
+  </body>
+  <script src="js/seletor.js"></script>
 </html>
