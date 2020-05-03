@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/57ded0e204.js" crossorigin="anonymous"></script>
-
+  <script src="https://kit.fontawesome.com/57ded0e204.js" crossorigin="anonymous"></script>
   <title>SELETOR DE CORES</title>
 </head>
 
@@ -17,13 +16,13 @@
   <main>
     <article>
       <label>VERMELHO</label>
-      <input onchange="mostrarCor()" id="red" min="0" max="255" type="range">
+      <input onchange="mostrarCor()" id="red" value="255" min="0" max="255" type="range">
       <label>VERDE</label>
-      <input onchange="mostrarCor()" id="green" min="0" max="255" type="range">
+      <input onchange="mostrarCor()" id="green" value="255" min="0" max="255" type="range">
       <label>AZUL</label>
-      <input onchange="mostrarCor()" id="blue" min="0" max="255" type="range">
+      <input onchange="mostrarCor()" id="blue" value="255" min="0" max="255" type="range">
+      <h2 id="rgbTexto">RGB(255, 255, 255)</h2>
       <div id="resultado">
-        <h2>RGB()</h2>
       </div>
     </article>
   </main>
@@ -40,6 +39,6 @@
     <p>Desenvolvido por Andrierlison</p>
   </footer>
 </body>
-<script src="js/seletor.js"></script>
+<script src="js/mostrarCor.js"></script>
 
 </html>
