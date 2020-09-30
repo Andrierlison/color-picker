@@ -1,43 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/57ded0e204.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>COLOR PICKER</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://kit.fontawesome.com/57ded0e204.js" crossorigin="anonymous"></script>
-  <title>SELETOR DE CORES</title>
-</head>
-
-<body>
-  <header>
-    <h1>SELETOR DE CORES</h1>
-  </header>
-  <main>
-    <article>
-      <label>VERMELHO</label>
-      <input onchange="mostrarCor()" id="red" value="255" min="0" max="255" type="range">
-      <label>VERDE</label>
-      <input onchange="mostrarCor()" id="green" value="255" min="0" max="255" type="range">
-      <label>AZUL</label>
-      <input onchange="mostrarCor()" id="blue" value="255" min="0" max="255" type="range">
-      <h2 id="rgbTexto">RGB(255, 255, 255)</h2>
-      <div id="resultado">
-      </div>
-    </article>
-  </main>
-  <footer>
-    <ul>
-      <li>
-        <h4>CONTATO</h4>
-      </li>
-      <li><a target="_blank" href="https://www.linkedin.com/in/andrierlison-da-silva-916775190/"><i class="fab fa-linkedin-in"></i>Linkedin/andrierlison-da-silva</a></li>
-      <li><a target="_blank" href="https://github.com/Andrierlison"><i class="fab fa-github-alt"></i>Github.com/Andrierlison</a></li>
-      <li><a href="mailto:andrierlisonsilva8@gmail.com"><i class="fas fa-envelope"></i>andrierlisonsilva8@gmail.com</a></li>
-    </ul>
-    <p>DESENVOLVIDO POR ANDRIERLISON</p>
-  </footer>
-</body>
-<script src="js/mostrar_cor.js"></script>
-
+  <body>
+    <header>
+      <h1>COLOR PICKER</h1>
+    </header>
+    <main>
+      <article>
+        <h2>Click the box below.</h2>
+        <input
+          onchange="showColor()"
+          type="color"
+          id="inputColor"
+          value="#000000"
+        />
+        <h2 id="rgbText">#000000</h2>
+        <div id="result"></div>
+      </article>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <h4>CONTACT</h4>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/andrierlison-da-silva-916775190/"
+            ><i class="fab fa-linkedin-in"></i>Linkedin/andrierlison-da-silva</a
+          >
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/Andrierlison"
+            ><i class="fab fa-github-alt"></i>Github.com/Andrierlison</a
+          >
+        </li>
+        <li>
+          <a href="mailto:andrierlisonsilva8@gmail.com"
+            ><i class="fas fa-envelope"></i>andrierlisonsilva8@gmail.com</a
+          >
+        </li>
+      </ul>
+      <p>DESENVOLVIDO POR ANDRIERLISON</p>
+    </footer>
+  </body>
+  <script src="js/showColor.js"></script>
 </html>
