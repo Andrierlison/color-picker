@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="https://andrierlison.github.io/counter-of-words/">🔗Counter Of Words</a>
+    <a href="https://andrierlison.github.io/color-picker/">🔗Color Picker</a>
 </h1>
 
 <p align="center">A hexadecimal color picker</p>
