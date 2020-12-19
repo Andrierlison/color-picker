@@ -28,8 +28,8 @@
 <h1>Copy</h1>
 <p>You can feel free to copy the page</p>
 
-<p>Before you begin, you will need to have the following tools installed on your machine</p>
-<a href="https://git-scm.com">Git</a>
+<p>You will need <a href="https://git-scm.com">Git</a> installed on your machine</p>
+
 <p>In addition, it is good to have an editor to work with the code as <a href="https://code.visualstudio.com/">VSCode</a></p>
 
 <h1>Clone this repository</h1>
