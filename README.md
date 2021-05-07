@@ -1,23 +1,10 @@
-<h1 align="center">
-    <a href="https://andrierlison.github.io/color-picker/">🔗Color Picker</a>
-</h1>
+# [Color Picker](https://andrierlison.github.io/color-picker/)
+## A hexadecimal color picker
 
-<p align="center">A hexadecimal color picker</p>
+<a href="https://github.com/Andrierlison/color-picker/blob/master/LICENSE" target="_blank">License</a> •
+<a href="#author">Author</a>
 
-<p align="center">
-    <a href="#technologies">Technologies</a> •
-    <a href="https://github.com/Andrierlison/color-picker/blob/master/LICENSE" target="_blank">License</a> •
-    <a href="#author">Author</a>
-</p>
-
-<p align="center">
-    <img alt="Banner" title="Banner" src="images/banner.png" width="600px" />
-</p>
-
-<div align="center">
-<h1>Under development</h2>
-<p>In the future I intend to implement other color formats, such as hsl and rgb.</p>
-</div>
+### In the future I intend to implement other color formats, such as hsl and rgb.
 
 <h1 id="technologies">The following tools were used in the construction of the project:</h1>
 
